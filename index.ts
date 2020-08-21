@@ -1,7 +1,7 @@
+export {};
 const express = require('express') ;
-// const router = require('express');
 const serverless = require('serverless-http');
-const projectRouter = require('./src/routes/project.js');
+const projectRouter = require('./src/routes/project.ts');
 const isProduction = true;
 // Instantiate express
 const app = express();

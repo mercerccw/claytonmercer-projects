@@ -1,7 +1,8 @@
+export {};
 // Import the dependencies for testing
 const chai = require('chai');
 const chaiHttp = require('chai-http');
-const {app, isProduction} = require('../index.js');
+const {app, isProduction} = require('../index.ts');
 // Configure chai
 chai.use(chaiHttp);
 chai.should();
