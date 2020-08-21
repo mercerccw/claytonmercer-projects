@@ -1,3 +1,5 @@
+org: mercerccw
+app: claytonmercer-projects
 # serverless.yml
 
 service: claytonmercer-projects
