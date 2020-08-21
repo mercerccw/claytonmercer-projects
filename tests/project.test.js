@@ -11,7 +11,7 @@ describe("Projects", () => {
         // Test to get all projects record
         it("should get all projects record", (done) => {
              chai.request(app)
-                 .get('/projects/getAllProjects')
+                 .get('/projects')
                  .end((err, res) => {
                      res.should.have.status(200);
                      res.body.should.be.a('object');
@@ -22,7 +22,7 @@ describe("Projects", () => {
         it("should get a single project record", (done) => {
              const id = 1;
              chai.request(app)
-                 .get(`/projects/getProject/${id}`)
+                 .get(`/projects/${id}`)
                  .end((err, res) => {
                      res.should.have.status(200);
                      res.body.should.be.a('object');
