@@ -1,4 +1,3 @@
-export {};
 const projects = require("../models/project.js");
 class ProjectController {
   // Get all projects

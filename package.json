@@ -2,10 +2,10 @@
   "name": "claytonmercer-projects",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
-    "test": "mocha --require babel-register tests/*.ts --exit",
-    "start": "nodemon --exec babel-node --presets babel-preset-env ./index.ts",
+    "test": "mocha --require babel-register tests/*.js --exit",
+    "start": "nodemon --exec babel-node --presets babel-preset-env ./index.js",
     "deploy": "serverless deploy"
   },
   "keywords": [],

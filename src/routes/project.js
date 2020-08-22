@@ -1,5 +1,5 @@
 const express = require("express");
-const ProjectController = require("../controllers/projectController.ts");
+const ProjectController = require("../controllers/projectController.js");
 const router = express.Router();
 
 router.get("/", (req, res) => {
